@@ -1,0 +1,58 @@
+
+    
+
+h1{
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(44, 1, 74);
+    color: aliceblue;
+    height: 3rem;
+    line-height: 3rem;
+}
+.choice{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+.choices > :not(:hover){
+  opacity: 0.8;
+}
+.choice{
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.choice:hover{
+    transform: scale(1.1);
+}
+
+img{
+    height: 200px;
+    display: flex;
+}
+.choices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+p{
+    text-align: center;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 5rem;
+}
+.msg-container{
+    margin-top: 5rem;
+}
+#msg{
+    background-color: cornflowerblue;
+    color: aliceblue;
+    font-size: 2rem;
+    padding: 1rem;
+    display: inline;
+    border-radius: 1rem; 
+}
